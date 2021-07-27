@@ -1,0 +1,48 @@
+header{
+    background: white;
+    height: 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0;
+}
+#menu-principal{
+    text-align: left;
+    height: 50px;
+    width: 70%;
+    margin-right: 10%;
+}
+#logo{
+    height: 100px;
+    width: 25%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#logo a img{
+    width: 100px;
+    padding: 15px 50px;
+}
+#menu-principal ul{
+    margin-top: 0px;
+    list-style: none;
+}
+#menu-principal ul li{
+    display: inline-block;
+    background: #0033e6;
+    border: solid 1px #0033e6;
+}
+#menu-principal ul li:hover{
+    background: white;
+    color: #0033e6;
+}
+#menu-usuario{
+    vertical-align: middle;
+    width: 65px;
+    margin-right: 5%;
+    text-align: right;
+}
+#menu-usuario img{
+    width: 50px;
+    border-radius: 30px;
+    border:black 2px solid;
+}

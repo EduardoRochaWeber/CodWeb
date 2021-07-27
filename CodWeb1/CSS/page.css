@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+main{
+    width: 90%;
+    margin: 30px auto 160px;
+    min-height: 400px;
+    background: #fff;
+    padding: 30px 25px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: #0033e6;
+}
+.botao-principal {
+    text-decoration: none;
+    display: block;
+    background: #0033e6;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #0033e6;
+}
+.botao-principal:hover{
+    color: #0033e6;
+    background: white;
+}
+input[type="text"], input[type="number"] {
+    background: #e9e8e8;
+    border: 1px solid #0033e6;
+    height: 30px;
+    margin: 5px 0;
+    width: 80%;
+    padding: 2px 15px;
+    border-radius: 8px;
+    color: #0033e6;
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background: #0033e6;
+}
