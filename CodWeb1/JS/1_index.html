@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mostrarDados" style="width: 96px; height: 50%;">
+        
+    </div>
+    <button onclick="alertar();">Alerta</button>
+    <button onclick="soma();">Soma</button>
+    <script>
+        var n1 = 10;
+        var n2 = 2;
+
+        nome();
+        link();
+        trocarCor();
+        borda();
+        function nome(){
+            console.log("Ednaldo");
+        }
+        function alertar(){
+            alert("Alerta!");
+        }
+        function soma(){
+            console.log(n1+n2);
+        }
+        function link(){
+            let elemento = document.getElementById("mostrarDados");
+            elemento.innerHTML = "<a href=''>Link</a>";
+        }
+        function trocarCor(){
+            let elemento = document.getElementById("mostrarDados");
+            elemento.style.background = "gray";
+        }
+        function borda(){
+            let elemento = document.getElementById("mostrarDados");
+            elemento.style.border = "5px solid black";
+        }
+    </script>
+</body>
+</html>

@@ -39,8 +39,11 @@ input[type="text"], input[type="number"] {
     margin: 5px 0;
     width: 80%;
     padding: 2px 15px;
-    border-radius: 8px;
+    border-radius: 3px;
     color: #0033e6;
+}
+input[type="submit"]{
+    margin: 5px 0;
 }
 hr{
     width: 100%;
