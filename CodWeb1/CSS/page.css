@@ -57,10 +57,23 @@ th{
 td{
     background: #bbbbbb;
 }
-table{
+#categorias{
     border-radius: 5px;
     margin: 5%;
     width: 90%;
     border: #0033e6 1px solid;
     text-align: center;
+}
+.form-item{
+    margin-left: 1.4%;
+    text-align: right;
+}
+#bloco-cadastro{
+    border-radius: 5px;
+    margin: 5%;
+    width: 90%;
+    border: #0033e6 1px solid;
+}
+#id, #nome, #descricao{
+    margin: 3px 10% 3px 0.1%;
 }

@@ -38,7 +38,7 @@
             <h1>Categoria</h1>
         </div>
         <hr />
-       <div>
+       <div id="bloco-cadastro">
            <form action="" method="post">
                <div class="form-item">
                    <label for="id">Id:</label>
@@ -49,15 +49,16 @@
                    <input type="text" name="nome" id="nome">
                </div>
                <div class="form-item">
-                   <label for="valor">Descrição:</label>
+                   <label for="descricao">Descrição:</label>
                    <input type="text" name="descricao" id="descricao">
                </div>
                <hr />
-               <input class="botao-principal" type="submit" value="Salvar">
+               <input class="botao-principal" type="submit" value="Salvar" onclick="salvar()">
            </form>
        </div>
     </main>
     </header>
     <footer></footer>
+    <script src="../JS/crud.js"></script>
 </body>
 </html>

@@ -8,8 +8,10 @@ body{
     background-color: #bbbbbb;
 }
 h1{
-    height: 100px;
     text-align: center;
+}
+.cabecalho-crud h1{
+    height: 100px;
 }
 #logo{
     vertical-align: middle;
