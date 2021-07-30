@@ -1,0 +1,14 @@
+.salvar {
+    text-decoration: none;
+    display: block;
+    background: #db3c31;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #db3c31;
+}
+.salvar:hover{
+    color: #db3c31;
+    background: white;
+}

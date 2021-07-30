@@ -14,22 +14,25 @@ function mostraTabela(){
     let corpo = tabela.getElementsByTagName("tbody")[0];
     corpo.innerHTML = "";
     categorias.forEach(c => {
-        corpo.innerHTML += `<tr><td>${c["id"]}</td><td>${c["nome"]}</td><td>${c["descricao"]}</td></tr>`;
+        corpo.innerHTML += `<tr><td>${c["id"]}</td><td>${c["nome"]}</td><td>${c["descricao"]}</td><td><a href="" onclick="deletar["id"]">Deletar</a></td></tr>`;
     });
 }
 function mostraStorage(){
-    categorias = JSON.parse(localStorage.getItem("categorias"));
+    let categoriaJson = localStorage.getItem("categorias");
+    if(categoriaJson != null){
+        categorias = JSON.parse(categoriaJson);
+    }
 }
 window.onload = function(){
     mostraStorage();
     mostraTabela();
 }
-/*function deletar(id){
-    let deletar = 
+function deletar(id){
+    let deletar = split.categorias(id);
     categorias = JSON.parse(localStorage.getItem("categorias"));
     mostraTabela();
 }
-function editar(id){
+/*function editar(id){
     let editar = categorias.find("id");
     categorias[0].id = 
 }*/
