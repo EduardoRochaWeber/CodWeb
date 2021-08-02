@@ -12,3 +12,30 @@
     color: #db3c31;
     background: white;
 }
+.menu-principal{
+    display: block;
+    height: 100%;
+    float: right;
+}
+.menu-principal a{
+    display: inline-block;
+    margin-left: 10px;
+    /*display: table;*/
+    float: left;
+}
+.menu-principal a li{
+    width: 100px;
+    color: white;
+    background: #5b54e2;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border: solid 1px #5b54e2;
+    display: inline-block;
+    vertical-align: middle;
+    /*margin: 25px 0;*/
+}
+.menu-principal a li:hover{
+    color: #5b54e2;
+    background: white;
+    border: solid 1px #5b54e2;
+}

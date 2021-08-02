@@ -1,15 +1,14 @@
-/*header{
-    top: 0;
+header{
+    background-color: sandybrown;
+    /*top: 0;*/
     width: 100%;
     height: 100px;
-    background: lightblue;
     vertical-align: middle;
-}*/
+}
 #fundo-transparente{
     text-align: center;
     background: black;
-    min-height: 643px;
-    height: 100%;
+    min-height: 600px;
     top:0;
     /*z-index: -1;*/
     box-shadow: 0 5px 10px 0;
@@ -19,5 +18,5 @@
 .fundo-total{
     color: white;
     /*background: black;*/
-    margin: auto;  
+    margin: 0 10px;  
 }

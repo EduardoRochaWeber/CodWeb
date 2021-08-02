@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     border: 0;
+    list-style: none;
+    text-decoration: none;
 }
 body{
     background-image: url("https://www.ignboards.com/proxy.php?image=https%3A%2F%2Fi.imgur.com%2Fm7pi7VR.gif&hash=400c131506fe06e931bb932778597932");
@@ -14,6 +16,18 @@ body{
     /*display: grid;
     grid-template-columns: 1fr 5fr 1fr;*/
 }
+#logo{
+    float: left;
+    background-color: red;
+    vertical-align: middle;
+    display: inline-block;
+}
+#logo a img{
+    height: 100px;
+    vertical-align: middle;
+}
+
+/* CADASTRO */
 .form-item{
     margin-left: 5%;
     text-align: right;
@@ -23,33 +37,4 @@ body{
     background: gray;
     margin: 3px 61% 3px 0.1%;
 }
-#logo{
-    vertical-align: middle;
-    display: inline-block;
-    margin: 0 0 0 0;
-}
-#logo a img{
-    height: 100px;
-}
-ul li a{
-    color: white;
-    background: #5b54e2;
-    display: inline-block;
-    padding: 15px 20px;
-    text-decoration: none;
-    vertical-align: middle;
-    text-align: center;
-    text-transform: uppercase;
-    border: solid 1px #5b54e2;
-}
-ul li a:hover{
-    color: #5b54e2;
-    background: white;
-    border: solid 1px white;
-}
-li{
-    list-style: none;
-}
-ul{
-    display: inline-block;
-}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
