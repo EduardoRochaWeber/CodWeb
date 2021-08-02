@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/page.css">
     <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/page.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Menu</title>
 </head>
 <body>
-    <div id="fundo-transparente">
-        <div class="fundo-total">
-            <header>
-                <div id="logo">
-                    <a href="menu.html">
-                        <img src="Images/1106188_1.png" alt="">
-                        <!-- <img src="" alt=""> -->
-                    </a>
-                </div>
-                <ul class="menu-principal">
-                    <a href=""><li>Cadastro</li></a>
-                    <a href=""><li>Lista</li></a>
-                </ul>
-            </header>
-            <main></main>
-        </div>        
-    </div>
+    <header>
+        <div id="logo" onclick="CarregarHome()">
+            <a>
+                <img src="Images/1106188_1.png" alt="Logo Havan" title="Logo Havan">
+            </a>
+        </div>
+        <h2>AnimeList</h2>
+        <nav id="menu-principal">
+            <ul>
+                <li>
+                    <a onclick="CarregarCadastro()">Cadastrar</a>
+                    <a onclick="CarregarLista()">Listar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="guia-main"></div>
+        <script src="ajax.js"></script>
+    </main>
 </body>
 </html>
