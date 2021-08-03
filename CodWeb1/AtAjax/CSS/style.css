@@ -27,7 +27,6 @@ h1,h2{
 nav{
     display: inline-block;
     vertical-align: middle;
-    /*width: 80%;*/
     margin-left: 5%;
 }
 ul li a{
@@ -59,34 +58,3 @@ ul li a:first-child{
 ul li a:last-child{
     border-radius: 0 5px 5px 0;
 }
-
-/*#logo{
-      float: left;
-    background-color: red;
-    vertical-align: middle;
-    display: inline-block;
-}
-#logo a img{
-    height: 100px;
-    vertical-align: middle;
-}*/
-
-/* CADASTRO */
-/*.form-item{
-    margin-left: 5%;
-    text-align: right;
-}*/
-/*#id, #nome, #genero, #qtTp, #qtEp{
-    border: 2px solid #5b54e2;
-    background: gray;
-    margin: 3px 61% 3px 0.1%;
-}*/
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
-/*body{
-    background-color: #bbbbbb;
-}*/
-/*.cabecalho-crud h1{
-    height: 100px;
-}*/
