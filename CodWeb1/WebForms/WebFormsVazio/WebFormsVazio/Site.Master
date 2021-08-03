@@ -17,24 +17,21 @@
     <form id="form1" runat="server">
         <div>
             <header>
-                    <div id="logo" onclick="CarregarHome()">
-                        <a>
-                            <img src="Content/images/1106188_1.png" />
-                        </a>
-                    </div>
-                    <h2>AnimeList</h2>
-                    <nav id="menu-principal">
-                        <ul>
-                            <li>
-                                <a onclick="CarregarCadastro()">Cadastrar</a>
-                                <a onclick="CarregarLista()">Listar</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
-                <main>
-                    <div id="guia-main"></div>
-                </main>
+                <div id="logo" onclick="CarregarHome()">
+                    <a>
+                        <img src="Content/images/1106188_1.png" />
+                    </a>
+                </div>
+                <h2>AnimeList</h2>
+                <nav id="menu-principal">
+                    <ul>
+                        <li>
+                            <a onclick="CarregarCadastro()">Cadastrar</a>
+                            <a onclick="CarregarLista()">Listar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 
             </asp:ContentPlaceHolder>

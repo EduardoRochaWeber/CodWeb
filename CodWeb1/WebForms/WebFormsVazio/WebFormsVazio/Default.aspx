@@ -4,7 +4,9 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="home">
-        <h1>Seja bem vindo a sua Lista de Animes!</h1>
-    </div>
+    <main>
+        <div id="home">
+            <h1>Seja bem vindo a sua Lista de Animes!</h1>
+        </div>
+    </main>
 </asp:Content>

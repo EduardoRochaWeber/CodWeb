@@ -6,18 +6,22 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table id="animes">
-        <h1>Animes</h1>
-        <br>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Gêneros</th>
-                <th>Quant. Temporadas</th>
-                <th>Quant. Episódios</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <main>
+        <div id="tela-lista">
+            <table id="animes">
+                <h1>Animes</h1>
+                <br>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Gêneros</th>
+                        <th>Quant. Temporadas</th>
+                        <th>Quant. Episódios</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
 </asp:Content>
