@@ -5,25 +5,25 @@
     <link href="Content/css/page.css" rel="stylesheet" />
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <main>
+<asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
         <div id="tela-cadastro">
-            <div class="form-item">
-                <label for="id">ID:<br></label><input type="number" name="id" id="id">
+            <div class="form-item" id="Id">
+                <label for="id">ID:<br></label><asp:TextBox ID="txtId" runat="server" CssClass="id"></asp:TextBox>
             </div>
-            <div class="form-item">
-                <label for="nome">Nome:<br></label><input type="text" name="nome" id="nome">
+            <div class="form-item" id="Nome">
+                <label for="nome">Nome:<br></label><asp:TextBox ID="txtNome" runat="server" CssClass="nome"></asp:TextBox>
             </div>
-            <div class="form-item">
-                <label for="genero">Gênero:<br></label><input type="text" name="genero" id="genero">
+            <div class="form-item" id="Genero">
+                <label for="genero">Gênero:<br></label><asp:TextBox ID="txtGenero" runat="server" CssClass="genero"></asp:TextBox>
             </div>
-            <div class="form-item">
-                <label for="qtTp">Quantidade de temporadas:<br></label><input type="number" name="qtTp" id="qtTp">
+            <div class="form-item" id="QtTp">
+                <label for="qtTp">Quantidade de temporadas:<br></label><asp:TextBox ID="txtQtTp" runat="server" CssClass="qtTp"></asp:TextBox>
             </div>
-            <div class="form-item">
-                <label for="qtEp">Quantidade de eposídios:<br></label><input type="number" name="qtEp" id="qtEp">
+            <div class="form-item" id="QtEp">
+                <label for="qtEp">Quantidade de eposídios:<br></label><asp:TextBox ID="txtQtEp" runat="server" CssClass="qtEp"></asp:TextBox>
             </div>
-            <button id="salvar" onclick="salvar()">Salvar</button>
+            <div class="form-item" id="Salvar">
+                <asp:Button ID="btnSalvar" runat="server" Text="Salvar" CssClass="botao-principal" OnClick="btnSalvar_Click"/>
+            </div>
         </div>
-    </main>
 </asp:Content>

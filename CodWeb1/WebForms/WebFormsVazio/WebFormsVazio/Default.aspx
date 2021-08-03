@@ -3,10 +3,8 @@
     <link href="Content/css/style.css" rel="stylesheet" />
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <main>
+<asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
         <div id="home">
             <h1>Seja bem vindo a sua Lista de Animes!</h1>
         </div>
-    </main>
 </asp:Content>

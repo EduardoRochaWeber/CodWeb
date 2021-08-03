@@ -5,23 +5,8 @@
     <link href="Content/css/style.css" rel="stylesheet" />
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <main>
-        <div id="tela-lista">
-            <table id="animes">
-                <h1>Animes</h1>
-                <br>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                        <th>Gêneros</th>
-                        <th>Quant. Temporadas</th>
-                        <th>Quant. Episódios</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </div>
-    </main>
+<asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
+       <h1>Animes</h1>
+    <br />
+    <asp:GridView ID="dgvAnimes" runat="server" CssClass="tabela" ShowHeaderWhenEmpty="true" CellSpacing="-1"></asp:GridView>
 </asp:Content>
