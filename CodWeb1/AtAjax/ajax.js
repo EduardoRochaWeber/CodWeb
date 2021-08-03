@@ -37,12 +37,14 @@ function CarregarLista(){
 
 function mostraTabela(){
     let corpo = document.getElementsByTagName("tbody")[0];
+    corpo.innerHTML = "";
     animes.forEach(a => {
-        corpo.innerHTML += `<tr><td>${a["id"]}</td><td>${a["nome"]}</td><td>${a["genero"]}</td><td>${a["qtTp"]}</td><td>${a["qtEp"]}</td><td class="opcoes"><button class="deletar" onclick="deletar(a["id"])">Deletar</button></td></tr>`;
+        corpo.innerHTML += `<tr><td>${a["id"]}</td><td>${a["nome"]}</td><td>${a["genero"]}</td><td>${a["qtTp"]}</td><td>${a["qtEp"]}</td><td class="opcoes"><a class="deletar" onclick="deletar(${a.id})">Deletar</a></td></tr>`;
     });
 }
 
 function salvar(){
+    console.log("chamando salvar");
     let id = parseInt(document.getElementById("id").value);
     let nome = document.getElementById("nome").value;
     let genero = document.getElementById("genero").value;
@@ -52,6 +54,9 @@ function salvar(){
     animes.push(listaAnime);
     localStorage.setItem("animes", JSON.stringify(animes));
     mostraStorage();
+    console.log(listaAnime);
+    console.log(animes);
+
 }
 
 function mostraStorage(){

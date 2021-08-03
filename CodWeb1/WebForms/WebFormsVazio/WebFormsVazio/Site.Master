@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebFormsVazio.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="Content/css/header.css" rel="stylesheet" />
+    <link href="Content/css/page.css" rel="stylesheet" />
+    <link href="Content/css/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                    <div id="logo" onclick="CarregarHome()">
+                        <a>
+                            <img src="Content/images/1106188_1.png" />
+                        </a>
+                    </div>
+                    <h2>AnimeList</h2>
+                    <nav id="menu-principal">
+                        <ul>
+                            <li>
+                                <a onclick="CarregarCadastro()">Cadastrar</a>
+                                <a onclick="CarregarLista()">Listar</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                    <div id="guia-main"></div>
+                </main>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

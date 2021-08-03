@@ -1,0 +1,68 @@
+﻿* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url("../images/m7pi7VR.gif");
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+#logo {
+    vertical-align: middle;
+    width: 100px;
+    display: inline-block;
+    margin: 0 0 0 0;
+    cursor: pointer;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+ul li a {
+    user-select: none;
+    cursor: pointer;
+    width: 100px;
+    color: white;
+    background: #5b54e2;
+    display: inline-block;
+    padding: 13px 20px;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    border: solid 1px #5b54e2;
+    border-radius: 5px;
+}
+
+    ul li a:hover {
+        color: #5b54e2;
+        background: white;
+        border: solid 1px #5b54e2;
+    }
+
+    ul li a:active {
+        background: rgb(187, 187, 187);
+    }
+
+    ul li a:first-child {
+        border-radius: 5px 0 0 5px;
+    }
+
+    ul li a:last-child {
+        border-radius: 0 5px 5px 0;
+    }
