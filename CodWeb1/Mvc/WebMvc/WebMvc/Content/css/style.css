@@ -1,0 +1,50 @@
+﻿*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    height: 100px;
+    background: orange;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    width: 80%;
+    margin: auto;
+    background: black;
+}
+
+#titulo {
+    vertical-align: middle;
+}
+#opcoes {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    margin-right: 5px;
+}
+.escolha {
+    min-width: 100px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: white;
+}
+h1{
+    padding: 10px 25px;
+}
+main{
+    text-align: center;
+    background: white;
+    min-height: 500px;
+}
+th {
+    background: #c8c8c8;
+    width: 5%;
+}
+fieldset {
+    width: 50%;
+    margin: auto;
+    border: black 1px solid;
+}

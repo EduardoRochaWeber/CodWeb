@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <title>Havan - @ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>Consulta de Carros</h1>
+        </div>
+        <nav id="opcoes">
+            <a class="escolha" href="/Home/Index">Menu</a>
+            <a class="escolha" href="/Home/Cadastrar">Cadastrar</a>
+            <a class="escolha" href="/Home/Listar">Listar</a>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>
