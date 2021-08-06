@@ -1,0 +1,33 @@
+﻿header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.9);
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    padding: 0 25px;
+    border-radius: 0 0 15px 15px;
+}
+
+#menu-principal {
+    text-align: right;
+    width: 70%;
+}
+
+    #menu-principal ul li {
+        display: inline-block;
+    }
+
+        #menu-principal ul li:hover {
+            color: #5b54e2;
+        }
+
+#logo {
+    height: 100px;
+    width: 35%;
+}
+
+    #logo a img {
+        width: 100px;
+    }

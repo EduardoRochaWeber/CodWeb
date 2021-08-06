@@ -23,6 +23,7 @@ namespace WebMvc.Controllers
             List<Carros> model = repository.Listar();
             return View(model);
         }
+
         [HttpPost]
         public ActionResult Salvar(Carros model)
         {
@@ -34,10 +35,17 @@ namespace WebMvc.Controllers
             repository.Deletar(id);
             return RedirectToAction("Listar");
         }
-        /*public ActionResult Editar(int id)
+        [HttpGet]
+        public ActionResult Editar(int id)
         {
-            repository.Deletar(id);
+            Carros model = repository.Ler(id);
+            return View(model);
+        }
+        [HttpPost]
+        public ActionResult Editar(Carros model)
+        {
+            repository.Editar(model);
             return RedirectToAction("Listar");
-        }*/
+        }
     }
 }

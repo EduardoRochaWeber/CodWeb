@@ -17,21 +17,28 @@ namespace WebMvc.Models
         {
             return listaCarros;
         }
+
+        public List<Carros> Ler()
+        {
+            return listaCarros;
+        }
+        public Carros Ler(int id)
+        {
+            return listaCarros.Find(c => c.Id == id);
+        }
+
         public void Deletar(int id)
         {
-            var ID = listaCarros.Find(c => c.Id == id);
+            Carros ID = Ler(id);
             if (ID != null)
             {
                 listaCarros.Remove(ID);
             }
         }
-        /*public void Editar(int id)
+        public void Editar(Carros model)
         {
-            var ID = listaCarros.Find(c => c.Id == id);
-            if (ID != null)
-            {
-                listaCarros.Find(ID);
-            }
-        }*/
+            int index = listaCarros.FindIndex(c => c.Id == model.Id);
+            listaCarros[index] = model;
+        }
     }
 }

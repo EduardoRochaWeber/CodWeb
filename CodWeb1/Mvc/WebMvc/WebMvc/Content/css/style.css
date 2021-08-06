@@ -16,9 +16,9 @@ body {
     background: black;
 }
 
-#titulo {
+/*#titulo {
     vertical-align: middle;
-}
+}*/
 #opcoes {
     display: inline-block;
     vertical-align: middle;
@@ -39,12 +39,23 @@ main{
     background: white;
     min-height: 500px;
 }
+table {
+    margin: auto;
+    width: 85%;
+    border: 1px solid black;
+}
 th {
     background: #c8c8c8;
-    width: 5%;
 }
 fieldset {
     width: 50%;
     margin: auto;
     border: black 1px solid;
+}
+th:last-child{
+    width: 25%;
+}
+#opcoes a{
+    display: inline-block;
+    text-align: center;
 }
