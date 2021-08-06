@@ -5,9 +5,8 @@ using System.Web;
 
 namespace AnimeListMvc.Models
 {
-    public class Animes
+    public class Animes : BaseModel
     {
-        public int Id { get; set; }
         public string Nome { get; set; }
         public string Genero { get; set; }
         public int QuantidadeTemporadas { get; set; }
