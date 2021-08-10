@@ -1,0 +1,82 @@
+﻿@model MvcDBO.Models.PlacaMae
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PlacaMae</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoBarramentoMemoriaRam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoBarramentoMemoriaRam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QtBarramentoMemoriaRam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtBarramentoMemoriaRam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoBarramentoArmazenamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoBarramentoArmazenamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QtBarramentoArmazenamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtBarramentoArmazenamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soquete)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soquete)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Chipset)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Chipset)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "List")
+</p>

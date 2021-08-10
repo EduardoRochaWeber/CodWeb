@@ -1,0 +1,48 @@
+﻿@model MvcDBO.Models.Fonte
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Fonte</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.QtW)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtW)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modulariade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modulariade)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "List")
+</p>

@@ -1,0 +1,57 @@
+﻿@model MvcDBO.Models.MemoriaRam
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MemoriaRam</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TamanhoMemoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TamanhoMemoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Frequencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Frequencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Barramento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Barramento)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "List")
+</p>

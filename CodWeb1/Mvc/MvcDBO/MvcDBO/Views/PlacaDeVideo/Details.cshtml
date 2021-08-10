@@ -1,0 +1,58 @@
+﻿@model MvcDBO.Models.PlacaDeVideo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PlacaDeVideo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FrequenciaBase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FrequenciaBase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FrequenciaMax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FrequenciaMax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Litografia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Litografia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "List")
+</p>
